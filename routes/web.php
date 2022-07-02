@@ -5,6 +5,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 
+//test comment
 Route::get('/', [BlogController::class, 'index'])->name('blog');
 
 Route::middleware('guest')->group(function(){
